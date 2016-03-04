@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students name="Students document" xmlns ="http://www.students.org/students">
+  <student>
+    <name>Pesho</name>
+    <gender>Male</gender>
+    <birthDate>12-03-1995</birthDate>
+    <phoneNumber>0897345678</phoneNumber>
+    <email>pesho@softuni.bg</email>
+    <university>softuni</university>
+    <specialty>Softueren injiner</specialty>
+    <facultyNumber>1234567</facultyNumber>
+    <exams> 
+      <examName>c++ basics</examName>
+      <dateTaken>18-03-2014</dateTaken>
+      <grade>4.5</grade>
+    </exams>
+    <exams>
+      <examName>c# basics</examName>
+      <dateTaken>18-05-2014</dateTaken>
+      <grade>5.5</grade>
+    </exams>
+  </student>
+</students>

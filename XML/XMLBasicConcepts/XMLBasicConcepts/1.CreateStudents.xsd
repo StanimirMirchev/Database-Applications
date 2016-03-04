@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.students.org/students" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="gender" type="xs:string" />
+              <xs:element name="birthDate" type="xs:string" />
+              <xs:element name="phoneNumber" type="xs:unsignedInt" />
+              <xs:element name="email" type="xs:string" />
+              <xs:element name="university" type="xs:string" />
+              <xs:element name="specialty" type="xs:string" />
+              <xs:element name="facultyNumber" type="xs:unsignedInt" />
+              <xs:element maxOccurs="unbounded" name="exams">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="examName" type="xs:string" />
+                    <xs:element name="dateTaken" type="xs:string" />
+                    <xs:element name="grade" type="xs:decimal" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

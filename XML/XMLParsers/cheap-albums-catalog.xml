@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>The King</name>
+    <artist>Ivan</artist>
+    <year>2010</year>
+    <producer>Gosho</producer>
+    <price>50</price>
+    <song>
+      <title>song nomer1</title>
+      <duration>1 min</duration>
+    </song>
+    <song>
+      <title>song nomer2</title>
+      <duration>2 min</duration>
+    </song>
+    <song>
+      <title>song nomer3</title>
+      <duration>3 min</duration>
+    </song>
+  </album>
+  <album>
+    <name>The one</name>
+    <artist>Asen</artist>
+    <year>2010</year>
+    <producer>Gosho</producer>
+    <price>10</price>
+    <song>
+      <title>song nomer1</title>
+      <duration>1 min</duration>
+    </song>
+    <song>
+      <title>song nomer2</title>
+      <duration>2 min</duration>
+    </song>
+    <song>
+      <title>song nomer3</title>
+      <duration>3 min</duration>
+    </song>
+  </album>
+</catalog>

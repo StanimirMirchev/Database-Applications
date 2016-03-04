@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.XMLBasicConcepts", "XMLBasicConcepts\2.XMLBasicConcepts.csproj", "{B29E7580-4AFE-4DF9-B8A1-C1AC6E1C51DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.DOM ParserExtractAllArtistsAlphabetically", "3.DOM ParserExtractAllArtistsAlphabetically\3.DOM ParserExtractAllArtistsAlphabetically.csproj", "{0B349C2D-DF3F-46DB-8B1F-7344BAB4EAF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.DOMParserExtractArtistsAndNumber", "4.DOMParserExtractArtistsAndNumber\4.DOMParserExtractArtistsAndNumber.csproj", "{6A26A3E6-85B4-4C3E-9870-A975FBF04CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.DOMParserDeleteAlbums", "6.DOMParserDeleteAlbums\6.DOMParserDeleteAlbums.csproj", "{198CFF96-1057-4969-8A60-83B3311A787A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ExtractArtistsAndNumberOfAlbums", "4.ExtractArtistsAndNumberOfAlbums\5.ExtractArtistsAndNumberOfAlbums.csproj", "{1BD8ED5D-D0E8-434E-973A-78779F732CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29E7580-4AFE-4DF9-B8A1-C1AC6E1C51DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29E7580-4AFE-4DF9-B8A1-C1AC6E1C51DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29E7580-4AFE-4DF9-B8A1-C1AC6E1C51DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29E7580-4AFE-4DF9-B8A1-C1AC6E1C51DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B349C2D-DF3F-46DB-8B1F-7344BAB4EAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B349C2D-DF3F-46DB-8B1F-7344BAB4EAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B349C2D-DF3F-46DB-8B1F-7344BAB4EAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B349C2D-DF3F-46DB-8B1F-7344BAB4EAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A26A3E6-85B4-4C3E-9870-A975FBF04CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A26A3E6-85B4-4C3E-9870-A975FBF04CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A26A3E6-85B4-4C3E-9870-A975FBF04CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A26A3E6-85B4-4C3E-9870-A975FBF04CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198CFF96-1057-4969-8A60-83B3311A787A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198CFF96-1057-4969-8A60-83B3311A787A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198CFF96-1057-4969-8A60-83B3311A787A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198CFF96-1057-4969-8A60-83B3311A787A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD8ED5D-D0E8-434E-973A-78779F732CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD8ED5D-D0E8-434E-973A-78779F732CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD8ED5D-D0E8-434E-973A-78779F732CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD8ED5D-D0E8-434E-973A-78779F732CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
